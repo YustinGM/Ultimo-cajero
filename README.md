@@ -1,49 +1,25 @@
-# 🏦 CajeroBancoSMITH - Proyecto Spring Boot + MySQL
+# Banco Smith - Cajero Virtual (Colombia)
 
-Este proyecto es un simulador de cajero automático bancario desarrollado con **Spring Boot**, **MySQL**, **Thymeleaf** y **HTML/CSS**. Permite la creación de usuarios, cuentas, desbloqueo de cuentas, y simula transacciones básicas bancarias.
+Este es un proyecto de un cajero automático virtual desarrollado con **Spring Boot** y diseñado con una estética inspirada en el Pacífico colombiano. Permite a los usuarios realizar operaciones bancarias básicas como crear cuenta, retirar, consignar, transferir, consultar movimientos y cambiar clave.
 
-## 🎯 Objetivos
-
-- Aplicar conocimientos de Java y Spring Boot.
-- Implementar una conexión a base de datos con MySQL.
-- Crear una interfaz web funcional con HTML, CSS y Thymeleaf.
-- Simular operaciones de un cajero automático con lógica de negocio real.
-
-## 🚀 Funcionalidades principales
-
-- ✅ Crear cliente (admin)
-- ✅ Crear cuenta bancaria (admin)
-- ✅ Desbloquear cuenta (admin)
-- ✅ Realizar operaciones como retiro, consignación, consulta de saldo (usuario)
-- ✅ Login seguro con validación
-- ✅ Conexión a base de datos MySQL desde Spring Boot
-
-## 🔧 Tecnologías usadas
+## 🛠️ Tecnologías
 
 - Java 17
-- Spring Boot 3
-- Spring Data JPA
-- MySQL
-- HTML5 + CSS3
+- Spring Boot
 - Thymeleaf
-- XAMPP / phpMyAdmin
+- HTML + CSS personalizado
+- MySQL
+- Bootstrap + FontAwesome
 
-## 🗂️ Estructura del proyecto
+## 🚀 Funcionalidades
 
-```bash
-src/
-├── main/
-│   ├── java/
-│   │   └── com/banco/smith/
-│   │       ├── controllers/
-│   │       ├── models/
-│   │       ├── repositories/
-│   │       ├── services/
-│   │       └── MiCajeroSMITHApplication.java
-│   └── resources/
-│       ├── static/
-│       │   ├── css/
-│       │   └── images/
-│       ├── templates/
-│       │   └── *.html
-│       └── application.properties
+- Creación de cuentas por parte del usuario
+- Inicio de sesión con validación
+- Menú principal con opciones de:
+  - Retiros
+  - Consignaciones
+  - Transferencias
+  - Cambio de clave
+  - Consultas de movimientos
+- Conexión a base de datos MySQL
+
